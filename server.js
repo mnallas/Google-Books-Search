@@ -27,4 +27,4 @@ mongoose.connect(
 
 // setup routes
 
-app.use(require("./routes/userRoutes"));
+app.use(require("./Routes/api-routes"));
