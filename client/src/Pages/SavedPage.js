@@ -7,7 +7,7 @@ const SavedPage = () => {
   return (
     <div>
       <Jumbotron />
-      <Card />
+      <Card btnType="btn btn-danger" btnText="Remove" />
     </div>
   );
 };

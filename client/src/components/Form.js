@@ -1,16 +1,12 @@
 import React from "react";
 
-const Form = () => {
+const Form = (props) => {
   return (
     <div>
       <form>
         <div className="form-group">
-          <label htmlFor="exampleInputEmail1">Search Books</label>
-          <input
-            className="form-control"
-            id="exampleInputEmail1"
-            aria-describedby="emailHelp"
-          />
+          <label>Search Books</label>
+          <input className="form-control" {...props} />
         </div>
         <button type="submit" className="btn btn-primary">
           Search
