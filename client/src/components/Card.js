@@ -13,11 +13,11 @@ const Card = (props) => {
             <h5 className="card-title">{props.author}</h5>
             <p className="card-text">{props.description}</p>
 
-            <a href={props.link} class="btn btn-primary">
+            <a href={props.link} className="btn btn-primary">
               View
             </a>
-            <button type="button" class="btn btn-danger">
-              Delete
+            <button type="button" className={props.btnType}>
+              {props.btnText}
             </button>
           </div>
         </div>

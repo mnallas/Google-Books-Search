@@ -4,15 +4,15 @@ const Form = () => {
   return (
     <div>
       <form>
-        <div class="form-group">
-          <label for="exampleInputEmail1">Search Books</label>
+        <div className="form-group">
+          <label htmlFor="exampleInputEmail1">Search Books</label>
           <input
-            class="form-control"
+            className="form-control"
             id="exampleInputEmail1"
             aria-describedby="emailHelp"
           />
         </div>
-        <button type="submit" class="btn btn-primary">
+        <button type="submit" className="btn btn-primary">
           Search
         </button>
       </form>
