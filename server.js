@@ -19,7 +19,7 @@ app.listen(PORT, () => console.log(`Listening at: http://localhost:${PORT}`));
 // setup mongoose
 
 mongoose.connect(
-  process.env.MONGODB_CONNECTION_STRING,
+  process.env.MONGODB_URI,
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
