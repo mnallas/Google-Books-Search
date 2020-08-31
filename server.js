@@ -5,18 +5,17 @@ const PORT = process.env.PORT || 5000;
 const path = require("path");
 require("dotenv").config();
 
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static("client/build"));
+  app.get("*", (req, res) => {
+    res.sendFile(path.resolve(__dirname, "client", "build", "index.html"));
+  });
+}
+
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 app.use(require("./Routes/api-routes"));
-
-if (process.env.NODE) {
-  app.use(express.static(client / build));
-}
-
-app.listen(PORT, () => console.log(`Listening at: http://localhost:${PORT}`));
-
-// setup mongoose
 
 mongoose.connect(
   process.env.MONGODB_URI,
@@ -30,5 +29,6 @@ mongoose.connect(
     console.log("MongoDB connection established");
   }
 );
+app.listen(PORT, () => console.log(`Listening at: http://localhost:${PORT}`));
 
 // setup routes
