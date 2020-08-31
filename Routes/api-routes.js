@@ -1,5 +1,6 @@
 const router = require("express").Router();
 const Book = require("../Models/bookModel");
+const Axios = require("axios");
 
 router.get("/api/books", async (req, res) => {
   const books = await Book.find();
@@ -8,8 +9,9 @@ router.get("/api/books", async (req, res) => {
 
 router.post("/api/books", async (req, res) => {
   try {
-    const { title, authors, description, image, link } = req.body;
+    const { id, title, authors, description, image, link } = req.body;
     const newBook = new Book({
+      id: id,
       title: title,
       authors: [...authors],
       description: description,
@@ -26,8 +28,8 @@ router.post("/api/books", async (req, res) => {
 
 router.delete("/api/books/:id", async (req, res) => {
   try {
-    await Book.findByIdAndDelete(req.body._id);
-    res.json({ msg: "Book deleted!" });
+    const deletedId = await Book.findByIdAndDelete(req.params.id);
+    res.json(deletedId);
   } catch (err) {
     res.json({ error: err.message });
   }

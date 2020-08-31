@@ -1,6 +1,6 @@
 import React from "react";
 
-const Form = (props) => {
+export const Input = (props) => {
   return (
     <div>
       <form>
@@ -8,12 +8,15 @@ const Form = (props) => {
           <label>Search Books</label>
           <input className="form-control" {...props} />
         </div>
-        <button type="submit" className="btn btn-primary">
-          Search
-        </button>
       </form>
     </div>
   );
 };
 
-export default Form;
+export const Button = (props) => {
+  return (
+    <button className={props.className} {...props}>
+      {props.text}
+    </button>
+  );
+};

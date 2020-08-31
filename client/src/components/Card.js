@@ -16,9 +16,7 @@ const Card = (props) => {
             <a href={props.link} className="btn btn-primary">
               View
             </a>
-            <button type="button" className={props.btnType}>
-              {props.btnText}
-            </button>
+            {props.children}
           </div>
         </div>
       </div>
