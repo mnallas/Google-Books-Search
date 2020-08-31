@@ -1,13 +1,19 @@
 const express = require("express");
 const mongoose = require("mongoose");
+const app = express();
+const PORT = process.env.PORT || 5000;
+const path = require("path");
 require("dotenv").config();
 
-// setup express
-const app = express();
-app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
 
-const PORT = process.env.PORT || 5000;
+app.use(require("./Routes/api-routes"));
+
+if (process.env.NODE) {
+  app.use(express.static(client / build));
+}
+
 app.listen(PORT, () => console.log(`Listening at: http://localhost:${PORT}`));
 
 // setup mongoose
@@ -26,5 +32,3 @@ mongoose.connect(
 );
 
 // setup routes
-
-app.use(require("./Routes/api-routes"));
