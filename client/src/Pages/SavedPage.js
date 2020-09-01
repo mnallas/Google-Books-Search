@@ -18,6 +18,7 @@ const SavedPage = () => {
     <div>
       <Jumbotron />
       {savedBooks.map((book) => {
+        console.log(book);
         return (
           <Card
             key={book.id}

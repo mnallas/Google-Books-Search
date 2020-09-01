@@ -4,6 +4,7 @@ const Axios = require("axios");
 
 router.get("/api/books", async (req, res) => {
   const books = await Book.find();
+  console.log(books);
   res.json(books);
 });
 
