@@ -35,7 +35,7 @@ const SavedPage = () => {
               text="Remove"
               onClick={() => {
                 Axios.delete(`/api/books/${book._id}`);
-                getBooks();
+                reload();
               }}
             />
           </Card>
