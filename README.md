@@ -8,7 +8,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/mnallas/repo_name">
+  <a href="https://github.com/mnallas/Google-Books-Search">
     <img src="https://via.placeholder.com/150" alt="Logo" width="80" height="80">
   </a>
 
@@ -58,7 +58,7 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://lh3.googleusercontent.com/JmQE6rMTBjoavsfnrtTFAvozcCRh6w4kBPCI6pG_1k-GxwcHVqufsVHWbWosGsCD_2Fh1biRzVEwi1PHKtzIM7aBpftRxOvy-9R72DvPUJJT5a3pZ_h0NuzparBOz5OIOqctmmOyPVyvd3W05Y6LlR9UuszoG7LDb5HpatDRojkVbsgJTL9En1TQVv-IcfXPobFT7f2mVRRWW1HSVSMIxJv38KqLDqceHHne4FE409aZDRlWoHKy8FF_6_hJW2d4dAQU7JDY78VW2LCU2AiFZergMUmTU2EUTyVjMxoCpkQY9EN15IlXugVRG9QK2kpVUI6bOdbIGwFpy6ABF3MaQEO-1aRJl0qmMoov1lEXXmZEq9ehf6_dlplKkIsAmnQcgMAIjhPy6QgMALrjFShtaewprnouFvKzQkrHss4ziP0JwkkgR-apVFzjKWcS6bHOwAZoeROWknqU9jeQpk5O2cTdlZtoub7v4PyyHsQBYXP-Ew4b60PgIAFCDkzL_SKKfBw4iQfXqxW75Li027gFnwdyuzBW0ac1CiZNH7VQLvBX3UAabEa_IukUJ2uadkXv7G05wWNsEPuv8ETPjZOflK4uCVKVXXi7sv1aDKc6fNTbOy8FMe_yc9G52e9WSAYj50IomZPYbe_JAB9EX3tzv66UT0EoBcXVQIQXveXr1byGfBC6NUrin1iTPJ4j=w1830-h1592-no?authuser=0)
+[![Product Name Screen Shot][product-screenshot]]()
 
 ### Built With
 
@@ -152,15 +152,16 @@ Project Link: [https://github.com/mnallas/repo_name](https://github.com/mnallas/
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/mnallas/repo.svg?style=for-the-badge
-[contributors-url]: https://github.com/mnallas/repo/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/mnallas/repo.svg?style=for-the-badge
-[forks-url]: https://github.com/mnallas/repo/network/members
-[stars-shield]: https://img.shields.io/github/stars/mnallas/repo.svg?style=for-the-badge
-[stars-url]: https://github.com/mnallas/repo/stargazers
-[issues-shield]: https://img.shields.io/github/issues/mnallas/repo.svg?style=for-the-badge
-[issues-url]: https://github.com/mnallas/repo/issues
-[license-shield]: https://img.shields.io/github/license/mnallas/repo.svg?style=for-the-badge
-[license-url]: https://github.com/mnallas/repo/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/mnallas/Google-Books-Search.svg?style=for-the-badge
+[contributors-url]: https://github.com/mnallas/Google-Books-Search/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/mnallas/Google-Books-Search.svg?style=for-the-badge
+[forks-url]: https://github.com/mnallas/Google-Books-Search/network/members
+[stars-shield]: https://img.shields.io/github/stars/mnallas/Google-Books-Search.svg?style=for-the-badge
+[stars-url]: https://github.com/mnallas/Google-Books-Search/stargazers
+[issues-shield]: https://img.shields.io/github/issues/mnallas/Google-Books-Search.svg?style=for-the-badge
+[issues-url]: https://github.com/mnallas/Google-Books-Search/issues
+[license-shield]: https://img.shields.io/github/license/mnallas/Google-Books-Search.svg?style=for-the-badge
+[license-url]: https://github.com/mnallas/Google-Books-Search/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/mnallas
+[linkedin-url]: https://www.linkedin.com/in/myhkas-nallas-15980416a/
+[product-screenshot]: client/public/homepage.png
